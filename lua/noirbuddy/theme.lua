@@ -169,9 +169,9 @@ function M.setup(opts)
   Group.new('DiagnosticSignWarn', colors.diagnostic_warning)
   Group.new('DiagnosticSignInfo', colors.diagnostic_info)
   Group.new('DiagnosticSignHint', colors.diagnostic_hint)
-  Group.new('DiffAdd', colors.diff_add)
-  Group.new('DiffChange', colors.diff_change)
-  Group.new('DiffDelete', colors.diff_delete)
+  Group.new('DiffAdd', colors.noir_9, colors.diff_add)
+  Group.new('DiffChange', nil, colors.nb_background)
+  Group.new('DiffDelete', colors.diff_delete, colors.diff_delete)
 end
 
 return M
