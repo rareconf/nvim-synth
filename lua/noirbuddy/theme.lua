@@ -90,6 +90,8 @@ function M.setup(opts)
   Group.new('WarningMsg', colors.diagnostic_warning)
   Group.new('WildMenu', colors.noir_0, colors.noir_9)
   Group.new('Underlined', colors.noir_0, colors.nb_background)
+  Group.new('WinBar', colors.diff_delete, colors.noir_10)
+  Group.new('WinBarNC', colors.noir_9, colors.noir_10)
 
   Group.new('FloatBorder', colors.noir_0)
   Group.new('FloatTitle', colors.noir_0)
@@ -171,7 +173,7 @@ function M.setup(opts)
   Group.new('DiagnosticSignInfo', colors.diagnostic_info)
   Group.new('DiagnosticSignHint', colors.diagnostic_hint)
   Group.new('DiffAdd', colors.noir_9, colors.diff_add)
-  Group.new('DiffChange', nil, colors.nb_background)
+  Group.new('DiffChange', nil, colors.noir_10)
   Group.new('DiffDelete', colors.diff_delete, colors.diff_delete)
 end
 

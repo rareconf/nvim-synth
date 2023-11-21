@@ -13,6 +13,7 @@ return {
   noir_7 = '#535353',
   noir_8 = '#323232',
   noir_9 = '#212121',
+  noir_10 = '#111111',
   diagnostic_error = '#ff0038',
   diagnostic_warning = '#ff7700',
   diagnostic_info = '#5f875f',
