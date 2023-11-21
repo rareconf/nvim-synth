@@ -91,7 +91,7 @@ function M.setup(opts)
   Group.new('WildMenu', colors.noir_0, colors.noir_9)
   Group.new('Underlined', colors.noir_0, colors.nb_background)
   Group.new('WinBar', colors.diff_delete, colors.noir_10)
-  Group.new('WinBarNC', colors.noir_9, colors.noir_10)
+  Group.new('WinBarNC', colors.noir_7, colors.noir_10)
 
   Group.new('FloatBorder', colors.noir_0)
   Group.new('FloatTitle', colors.noir_0)
