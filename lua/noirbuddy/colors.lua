@@ -63,6 +63,7 @@ function M.setup(opts)
   Color.new('noir_7', getConfiguredColor('noir_7'))
   Color.new('noir_8', getConfiguredColor('noir_8'))
   Color.new('noir_9', getConfiguredColor('noir_9'))
+  Color.new('noir_10', getConfiguredColor('noir_10'))
 end
 
 return M
