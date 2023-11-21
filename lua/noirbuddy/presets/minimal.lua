@@ -18,7 +18,7 @@ return {
   diagnostic_warning = '#ff7700',
   diagnostic_info = '#5f875f',
   diagnostic_hint = '#b36d43',
-  diff_add = '#5f865f',
+  diff_add = '#5f875f',
   diff_change = '#685742',
   diff_delete = '#b36d43',
 }

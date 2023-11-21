@@ -59,10 +59,10 @@ function M.setup(opts)
   Group.new('CursorLine', nil, colors.noir_9)
   Group.new('CursorLineNr', colors.primary, colors.noir_9)
   Group.new('Directory', colors.primary)
-  Group.new('DiffAdd', colors.noir_9, colors.diff_add)
+  Group.new('DiffAdd', colors.noir_9, colors.diff_add, styles.bold)
   Group.new('DiffChange', nil, colors.noir_9)
-  Group.new('DiffDelete', colors.diff_delete, colors.diff_delete)
-  Group.new('DiffText', nil, colors.noir_8)
+  Group.new('DiffDelete', colors.noir_10, colors.diff_delete)
+  Group.new('DiffText', colors.noir_10, colors.diff_change, styles.bold)
   Group.new('ErrorMsg', colors.noir_9, colors.diagnostic_error)
   Group.new('VertSplit', colors.noir_9, colors.nb_background)
 
@@ -174,7 +174,7 @@ function M.setup(opts)
   Group.new('DiagnosticSignHint', colors.diagnostic_hint)
   Group.new('DiffAdd', colors.noir_9, colors.diff_add)
   Group.new('DiffChange', nil, colors.noir_10)
-  Group.new('DiffDelete', colors.diff_delete, colors.diff_delete)
+  Group.new('DiffDelete', colors.noir_10, colors.diff_delete)
 end
 
 return M
