@@ -95,7 +95,7 @@ function M.setup(opts)
 
   Group.new('FloatBorder', colors.noir_0)
   Group.new('FloatTitle', colors.noir_0)
-  Group.new('NormalFloat', colors.noir_4)
+  Group.new('NormalFloat', colors.noir_4, colors.noir_10)
 
   -- Treesitter Syntax Highlighting
   -- See :help treesitter-highlight-groups
